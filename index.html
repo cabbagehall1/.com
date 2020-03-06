@@ -1,74 +1,112 @@
-<? include ('header.php');?> 
-<style type="text/css">
-<!--
-.bodytext {	line-height: 20px;
-}
-.style3 {	font-size: 11px;
-	line-height: 17px;
-}
-.style7 {	line-height: 18px;
-	font-size: 11px;
-}
-.bodytext1 {line-height: 20px;
-}
-.bodytext1 {line-height: 20px;
-}
--->
-</style>
-<meta name="norton" content="<meta name="norton-safeweb-site-verification />
+cabbagehall.co.uk";
+$subject = "Contact from Web site";
+
+$comments .= "Name: $_POST[name]";
+$comments .= "\nEmail: $_POST[email]";
+$comments .= "\nPhone: $_POST[phone]";
+$comments .= "\nType of enquiry: $_POST[type]";
+$comments .= "\n\n$_POST[enquiry]";
+
+$email = $_POST['email'];
+
+mail ($emailaddy, $subject, $comments, "From: $email");
+echo "<b>Thank you for your enquiry.</b><br><br>We will contact you as soon as possible.";
+?>
+<?
+} else {			  
+			   ?>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-<td valign="top"><span class="bodytext1"><a href="https://m.facebook.com/cabbagehalldairy/"></a></span>
-  <p><img src="images/grey_line.gif" width="588" height="1" /></p>
-<p class="bodytext">&nbsp;</p>
-<p class="bodytext">  Cabbage Hall  Dairy. We deliver direct to your Home or Office, we also supply to some  catering establishments.   Supplying <a href="https://www.grahamsfamilydairy.com/"> Grahams Family Dairy</a> products  with other fine dairy produce available. Not a large organization, 
-   we pride our self's on our customer care. </p>
-<p class="bodytext" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif"><br />
-  <span style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif">Established in 1936, and a family business delivering in the  Glenrothes / Kirkcaldy area in Fife Scotland. Our web-site is primarily set up to provide our existing customers with on-line services and information. contact us for guest login.</span></p>
-<p style="text-align: center"><span style="text-align: left"></span><span style="text-align: center"></span><img src="images/smallpic/Milk.jpg" width="218" height="180" alt=""/></p>
-<p class="bodytext"><img src="images/grey_line.gif" width="588" height="1" /></p>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top">
+<td width="50%"><p><b>Contacting us by email:</b></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
 <tr>
-<td valign="top" class=""><p><strong>Our Web Site</strong></p>
-<p class="style7">All Prices Advertised on our site are for customers who are registered with us. If you are not   but would like to find out more you can by using this Link:  <strong><a href="https://www.cabbagehalldairy.co.uk/contact">Apply Online</a></strong><a href="mailto:info@cabbagehall.co.k">.</a></p>
-<p class="style7"> We  always aim to offer reliable service and good value, Membership is limited.<br />
-                    If you are at present a customer of Cabbagehall and are interested 
-                  in Online services let us know and we will set your account and services to live so you can access not only your order but your previous purchases.</p>
-<p class="style7"> With Online Payment,  receipts 
-                    will be issued, refunds also available. All transactions are 
-                    on a secure servers. ( World-pay or Pay-pal ) Discounts are only offered 
-                    to existing customers, prices advertised on the site in milk 
-                    section are priced as one unit or product. Cancellation of on-line, if you prefer your 
-                    current payment method.</p>
-                  <p class="style7">Refunds Available at Discretion of Management.</p>
-                  <p class="style7">&nbsp; </p></td>
-<td width="40" valign="top">&nbsp;</td>
-<td valign="top"><p>&nbsp;</p>
-                  <p class="style7">There has been a major increase in interest 
-                    for produce direct from the Farm. The consumer and the farmer 
-                    need to have a more direct relationship, As  
-                    supermarkets are well placed and they are better able to service 
-                    a large amount of the population, this is good and necessary. we hope to offer a personal door step service
-                    and with fuel costs its not always convenient to pop back 
-                    to the super market if some thing is forgotten. with no minimum 
-                    order policy we can drop off any forgotten items with you 
-                    milk deliveries.</p>
-                  <p class="style7"> We believe that a reduction in food miles 
-                    makes a lot of sense and to make local farmers more accessible 
-                    to the local population, we aim to do this in a small way. 
-                  </p>
-<p class="style7"><br />
-                    And the Internet is a good way of achieving this so - Good 
-                    food for a Good Price. </p>
-<p class="style7"><br />
-                    We are continually developing and improving this site, and 
-                    will always endeavor to provide a top quality service for 
-                    you, and assist you in any way we can, so feel free <a href="contact.php">contact 
-                    us</a> </p>
-<p class="style7">&nbsp;</p></td>
+<td width="9%"><div align="center"></div></td>
+<td width="91%"><a href="mailto:info@cabbagehall.co.uk">info@cabbagehall.co.uk</a></td>
 </tr>
 </table>
-<p class="bodytext"><img src="images/grey_line.gif" width="588" height="1" /></p>
+<p><b>Contacting us by Mobile:</b></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td width="19%">&nbsp;</td>
+<td width="81%">0780 2436826</a></td>
+</tr>
+</table>
+<p><b>Contacting us by Landline:</b></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td width="9%" height="4">&nbsp;</td>
+                      <td width="91%" height="4">01592742318  (Phone Not Attended)</td>
+</tr>
+</table>
+<p><b>Contacting us by Post:</b></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td width="9%" height="4" valign="top"><div align="center"></div></td>
+<td width="91%" height="4">Cabbagehall Dairy<br />
+23 glenwood road<br />
+Leslie - Glenrothes<br />
+fife
+<p>KY6 3EN<br />
+</p></td>
+</tr>
+</table>
+<p>&nbsp;</p></td>
+<td width="50%"><p><b>You can also contact us direct by filling out the form 
+
+                    below.</b></p>
+<form action="" method="post" name="contact" id="contact">
+  <table border="0" cellspacing="1" cellpadding="3" width="100%">
+  <tr>
+<td class="unnamed1" align="right" width="132"><div align="left"><font color="#000000"><b>Name:&nbsp;&nbsp; </b></font></div></td>
+<td width="306"><font color="#000000"> &nbsp;
+<input name="name" type="text" id="name" size="26" maxlength="50" />
+</font></td>
+</tr>
+<tr>
+<td class="unnamed1" align="right" width="132"><div align="left"><font color="#000000"><b>Email:&nbsp;&nbsp; </b></font></div></td>
+<td width="306"><font color="#000000"> &nbsp;
+<input type="text" name="email" size="26" maxlength="50" />
+</font></td>
+</tr>
+<tr>
+<td class="unnamed1" align="right" width="132"><div align="left"><font color="#000000"><b>Phone:&nbsp;&nbsp;</b></font></div></td>
+<td width="306"><font color="#000000">&nbsp;
+<input name="phone" type="text" id="phone" size="26" maxlength="50" />
+</font></td>
+</tr>
+<tr>
+<td class="unnamed1" align="right" width="132" valign="top"><div align="left"><b>Type of enquiry</b></div></td>
+<td width="306">&nbsp;
+<select name="type">
+<option value="Sales and support" selected="selected">Sales and 
+
+                            Support</option>
+<option value="Business Enquiry">Business enquiry</option>
+<option value="Service Feedback">Service Feedback</option>
+<option value="Web site feedback">Web site feedback</option>
+</select>
+</td>
+</tr>
+<tr>
+<td class="unnamed1" align="right" width="132" valign="top"><div align="left"><b><font color="#000000">Your Enquiry&nbsp;</font></b></div></td>
+<td width="306"><font color="#000000"> &nbsp;
+<textarea name="enquiry" cols="25" rows="6" wrap="virtual" id="enquiry"></textarea>
+</font></td>
+</tr>
+<tr>
+<td align="right" width="132" valign="top"><font color="#000000">&nbsp;</font></td>
+<td width="306"><font color="#000000"><b>
+<input type="submit" value="Submit" it!="it!" name="submit" />
+<input type="reset" name="Reset" value="Reset" id="FormsButton1" />
+</b> </font></td>
+</tr>
+</table>
+</form></td>
+</tr>
+</table>
+<?
+}
+?>
 </td>
 <td width="50" valign="top"><img src="images/pixel.gif" width="50" height="1" /></td>
 <td width="250" valign="top"><table width="100%" height="58" border="0" cellpadding="0" cellspacing="0">
@@ -82,34 +120,32 @@
 if ($_SESSION['logged_in']<>1){
 ?>
 <table  border="0" align="center" cellpadding="5" cellspacing="0">
-<form action="https://www.cabbagehalldairy.co.uk/login.php?action=login" method="post" name="login" id="login">
-
-<tr>
-<td width="17">&nbsp;</td>
-<td width="256"><div align="left"> Your User-Name: <br />
-<input name="username" type="text" id="p_name" size="25" />
-</div></td>
-</tr>
-<tr>
-<td width="17">&nbsp;</td>
-<td>Your Password: <br />
-<input name="password" type="password" id="p_pass" size="25" maxlength="18" /></td>
-</tr>
-<tr>
-<td width="17">&nbsp;</td>
-<td><input type="submit" name="Submit" value="Login" /></td>
-</tr>
-<tr>
-<td width="17">&nbsp;</td>
-<td><br />
-<table width="100%" border="0" cellspacing="0" cellpadding="1">
-
-<tr>
-<td><a href="https://www.cabbagehalldairy.co.uk/contact">How to Make an Account</a></td>
-</tr>
-</table></td>
-</tr>
-</form>
+  <form action="https://www.cabbagehalldairy.co.uk/login.php?action=login" method="post" name="login" id="login">
+    <tr>
+      <td width="17">&nbsp;</td>
+      <td width="256"><div align="left"> Your Username: <br />
+        <input name="username" type="text" id="p_name" size="25" />
+      </div></td>
+    </tr>
+    <tr>
+      <td width="17">&nbsp;</td>
+      <td>Your Password: <br />
+        <input name="password" type="password" id="p_pass" size="25" maxlength="18" /></td>
+    </tr>
+    <tr>
+      <td width="17">&nbsp;</td>
+      <td><input type="submit" name="Submit" value="Login" /></td>
+    </tr>
+    <tr>
+      <td width="17">&nbsp;</td>
+      <td><br />
+        <table width="100%" border="0" cellspacing="0" cellpadding="1">
+          <tr>
+            <td><a href="https://www.cabbagehalldairy.co.uk/">Home Page</a></td>
+          </tr>
+        </table></td>
+    </tr>
+  </form>
 </table>
 <?
 } else {
@@ -120,11 +156,10 @@ You are already logged in
 include ('basket.php');
 }
 ?>
-                  <p align="center" class="style3"><img src="images/smallpic/Grahams7.jpg" width="268" height="357" alt=""/><br />
+<p align="center" class="style3"><br />
 </p></td>
 </tr>
 </table>
-<p class="bodytext">&nbsp;</p>
 <p class="bodytext">&nbsp;</p>
 <p class="bodytext"><br />
 </p></td>
