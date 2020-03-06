@@ -1,10 +1,134 @@
-<html>
-<head>
+<? include ('header.php');?> 
+<style type="text/css">
+<!--
+.bodytext {	line-height: 20px;
+}
+.style3 {	font-size: 11px;
+	line-height: 17px;
+}
+.style7 {	line-height: 18px;
+	font-size: 11px;
+}
+.bodytext1 {line-height: 20px;
+}
+.bodytext1 {line-height: 20px;
+}
+-->
+</style>
+<meta name="norton" content="<meta name="norton-safeweb-site-verification />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+<td valign="top"><span class="bodytext1"><a href="https://m.facebook.com/cabbagehalldairy/"></a></span>
+  <p><img src="images/grey_line.gif" width="588" height="1" /></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">  Cabbage Hall  Dairy. We deliver direct to your Home or Office, we also supply to some  catering establishments.   Supplying <a href="https://www.grahamsfamilydairy.com/"> Grahams Family Dairy</a> products  with other fine dairy produce available. Not a large organization, 
+   we pride our self's on our customer care. </p>
+<p class="bodytext" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif"><br />
+  <span style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif">Established in 1936, and a family business delivering in the  Glenrothes / Kirkcaldy area in Fife Scotland. Our web-site is primarily set up to provide our existing customers with on-line services and information. contact us for guest login.</span></p>
+<p style="text-align: center"><span style="text-align: left"></span><span style="text-align: center"></span><img src="images/smallpic/Milk.jpg" width="218" height="180" alt=""/></p>
+<p class="bodytext"><img src="images/grey_line.gif" width="588" height="1" /></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top" class=""><p><strong>Our Web Site</strong></p>
+<p class="style7">All Prices Advertised on our site are for customers who are registered with us. If you are not   but would like to find out more you can by using this Link:  <strong><a href="https://www.cabbagehalldairy.co.uk/contact">Apply Online</a></strong><a href="mailto:info@cabbagehall.co.k">.</a></p>
+<p class="style7"> We  always aim to offer reliable service and good value, Membership is limited.<br />
+                    If you are at present a customer of Cabbagehall and are interested 
+                  in Online services let us know and we will set your account and services to live so you can access not only your order but your previous purchases.</p>
+<p class="style7"> With Online Payment,  receipts 
+                    will be issued, refunds also available. All transactions are 
+                    on a secure servers. ( World-pay or Pay-pal ) Discounts are only offered 
+                    to existing customers, prices advertised on the site in milk 
+                    section are priced as one unit or product. Cancellation of on-line, if you prefer your 
+                    current payment method.</p>
+                  <p class="style7">Refunds Available at Discretion of Management.</p>
+                  <p class="style7">&nbsp; </p></td>
+<td width="40" valign="top">&nbsp;</td>
+<td valign="top"><p>&nbsp;</p>
+                  <p class="style7">There has been a major increase in interest 
+                    for produce direct from the Farm. The consumer and the farmer 
+                    need to have a more direct relationship, As  
+                    supermarkets are well placed and they are better able to service 
+                    a large amount of the population, this is good and necessary. we hope to offer a personal door step service
+                    and with fuel costs its not always convenient to pop back 
+                    to the super market if some thing is forgotten. with no minimum 
+                    order policy we can drop off any forgotten items with you 
+                    milk deliveries.</p>
+                  <p class="style7"> We believe that a reduction in food miles 
+                    makes a lot of sense and to make local farmers more accessible 
+                    to the local population, we aim to do this in a small way. 
+                  </p>
+<p class="style7"><br />
+                    And the Internet is a good way of achieving this so - Good 
+                    food for a Good Price. </p>
+<p class="style7"><br />
+                    We are continually developing and improving this site, and 
+                    will always endeavor to provide a top quality service for 
+                    you, and assist you in any way we can, so feel free <a href="contact.php">contact 
+                    us</a> </p>
+<p class="style7">&nbsp;</p></td>
+</tr>
+</table>
+<p class="bodytext"><img src="images/grey_line.gif" width="588" height="1" /></p>
+</td>
+<td width="50" valign="top"><img src="images/pixel.gif" width="50" height="1" /></td>
+<td width="250" valign="top"><table width="100%" height="58" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="66"><img src="images/cust_login.gif" width="217" height="27" /></td>
+</tr>
+<tr>
+<td valign="top">
 
-<title>Cabbagehall</title>
-</head>
+<?
+if ($_SESSION['logged_in']<>1){
+?>
+<table  border="0" align="center" cellpadding="5" cellspacing="0">
+<form action="https://www.cabbagehalldairy.co.uk/login.php?action=login" method="post" name="login" id="login">
 
-<body>
+<tr>
+<td width="17">&nbsp;</td>
+<td width="256"><div align="left"> Your User-Name: <br />
+<input name="username" type="text" id="p_name" size="25" />
+</div></td>
+</tr>
+<tr>
+<td width="17">&nbsp;</td>
+<td>Your Password: <br />
+<input name="password" type="password" id="p_pass" size="25" maxlength="18" /></td>
+</tr>
+<tr>
+<td width="17">&nbsp;</td>
+<td><input type="submit" name="Submit" value="Login" /></td>
+</tr>
+<tr>
+<td width="17">&nbsp;</td>
+<td><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="1">
 
-</body>
-</html>
+<tr>
+<td><a href="https://www.cabbagehalldairy.co.uk/contact">How to Make an Account</a></td>
+</tr>
+</table></td>
+</tr>
+</form>
+</table>
+<?
+} else {
+?>
+You are already logged in
+<br /><br />
+<?
+include ('basket.php');
+}
+?>
+                  <p align="center" class="style3"><img src="images/smallpic/Grahams7.jpg" width="268" height="357" alt=""/><br />
+</p></td>
+</tr>
+</table>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><br />
+</p></td>
+</tr>
+</table>
+
+<? include ('footer.php');?>
